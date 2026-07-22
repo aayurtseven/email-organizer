@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Allow cleartext traffic for development (IMAP) -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">imap.gmail.com</domain>
+        <domain includeSubdomains="true">smtp.ethereal.email</domain>
+    </domain-config>
+</resources>
